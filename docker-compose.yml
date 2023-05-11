@@ -1,0 +1,10 @@
+# for local development
+version: '1.1-nightly'
+services:
+  msc-animet:
+    image: ecc-msc/msc-animet:nightly
+    container_name: msc-animet-nightly
+    build:
+      context: .
+    ports:
+    - '5085:80'
