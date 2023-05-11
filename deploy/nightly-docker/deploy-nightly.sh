@@ -68,5 +68,7 @@ cat > animet-nightly.conf <<EOF
 </Location>
 EOF
 
+cd ..
+
 ln -s $NIGHTLYDIR latest
 chmod -R 775 $NIGHTLYDIR # ensure group writable
