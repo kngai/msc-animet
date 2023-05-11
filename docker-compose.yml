@@ -7,4 +7,4 @@ services:
     build:
       context: .
     ports:
-    - '5085:80'
+    - '5089:80'
