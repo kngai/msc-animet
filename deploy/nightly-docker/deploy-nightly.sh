@@ -62,8 +62,8 @@ docker compose -f docker-compose.yml up -d
 
 cat > animet-nightly.conf <<EOF
 <Location /animet>
-  ProxyPass http://localhost:5089/
-  ProxyPassReverse http://localhost:5089/
+  ProxyPass http://localhost:5090/
+  ProxyPassReverse http://localhost:5090/
   Require all granted
 </Location>
 EOF
